@@ -62,7 +62,7 @@ function loadQuestions(){
 }
 function showScores(){
     let scoreHtml = "<h1>Result</h1>";
-    scoreHtml += "<h2 id='score'>Your scores:"+quiz.score+ "<hr>"+"Your percentage:" +quiz.score*100/quiz.questions.length+" </h2>"
+    scoreHtml += "<h2 id='score'>Your score:"+quiz.score+ "<hr>"+"Your percentage:" +quiz.score*100/quiz.questions.length+"%"+" </h2>"
     let quizElement = document.getElementById("quiz");
     quizElement.innerHTML = scoreHtml;
   }
